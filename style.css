@@ -15,11 +15,12 @@ h1 {
   display: inline-block;
 }
 
-#criar-carta {
-  display: inline-block;
-  float: right;
+#carta-gerada {
+  display:inline-block;
+}
 
-  
+#criar-carta {
+  float: right;
 }
 
 #inline {
@@ -28,14 +29,14 @@ h1 {
 
 .newspaper {
   background-color: antiquewhite;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 
 .magazine1 {
   background-color: teal;
   color: white;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -43,7 +44,7 @@ h1 {
 .magazine2 {
   background-image: url("images/pink-pattern.png");
   color: fuchsia;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
 }
 
@@ -70,7 +71,7 @@ h1 {
   transform: rotate(5deg);
 }
 
-.skewleft{
+.skewleft {
   transform: skewX(10deg);
 }
 
