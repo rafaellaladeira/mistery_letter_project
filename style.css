@@ -1,3 +1,7 @@
+* {
+  background-color: blanchedalmond;
+}
+
 h1 {
   font-family: 'Rock 3D', cursive;
   margin-left: 550px;
@@ -16,15 +20,8 @@ h1 {
 }
 
 #carta-gerada {
-  display:inline-block;
-}
-
-#criar-carta {
-  float: right;
-}
-
-#inline {
-  display: inline-block;
+  text-align: center;
+  font-size: 35px;;
 }
 
 .newspaper {
